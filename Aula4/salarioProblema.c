@@ -3,16 +3,15 @@
 
 int main() {
 
-    int valor1;
+    float valor1;
 
     printf("Insira seu salario >> ");
-    scanf("%d", &valor1);
+    scanf("%f", &valor1);
 
-    if(valor1 <= 10000) {
-        valor1 += 1000; 
+    if(valor1 <= 10000.0) {
+        valor1 += 1000.0; 
     }
     
-    printf("seu salario é de %d\n", valor1);
-
+    printf("seu salario é de %.2f\n", valor1);
     return 0;
 }
