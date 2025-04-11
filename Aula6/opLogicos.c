@@ -3,20 +3,20 @@
 
 int main() {
 
-    float numero;
+    float temp;
 
-    printf("Insira seu numero >> ");
-    scanf("%f", &numero);
+    printf("Insira a temperatura do sensor >> ");
+    scanf("%f", &temp);
 
-    if(numero >= 0) {
-        if(numero <= 2.5) {
-            printf("o numero inserido é baixo\n");
-        } else if(numero <= 3.5) {
-            printf("o numero inserido é médio\n");
-        } else{
-            printf("o numero inserido é alto\n");
+    if(temp > 0) {
+        if(temp <= 10) {
+            printf("Temperatura ok\n");
+        } else if(temp <= 15 && temp != 12.5) {
+            printf("Ventilador em velocidade 1\n");
+        } else if(temp > 15){
+            printf("Ventilador em velocidade 2\n");
         }
-    } else printf("numero invalido\n");
+    } else printf("Temperatura abaixo do limite\n");
     
     return 0;
 }
