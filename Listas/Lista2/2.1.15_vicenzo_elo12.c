@@ -12,17 +12,21 @@ int main() {
     printf("Digite a quantidade produzida e vendida de Produto 2 >> ");
     scanf("%d %d", &prod2Produzido, &prod2Vendido);
 
-    estoque1 = prod1Produzido - prod1Vendido;
-    estoque2 = prod2Produzido - prod2Vendido;
+    if (prod1Produzido > 0 && prod1Vendido > 0 && prod2Produzido > 0 && prod2Vendido) {
 
-    printf("Produto 1 no estoque: %d\n", estoque1);
-    if (estoque1 < 50) {
-        printf("Produto 1 com menos de 50 unidades no estoque!\n");
-    }
+        estoque1 = prod1Produzido - prod1Vendido;
+        estoque2 = prod2Produzido - prod2Vendido;
 
-    printf("Produto 2 no estoque: %d\n", estoque2);
-    if (estoque2 < 50) {
-        printf("Produto 2 com menos de 50 unidades no estoque!\n");
-    }
+        printf("Produto 1 no estoque: %d\n", estoque1);
+        if (estoque1 < 50) {
+            printf("Produto 1 com menos de 50 unidades no estoque!\n");
+        }
+
+        printf("Produto 2 no estoque: %d\n", estoque2);
+        if (estoque2 < 50) {
+            printf("Produto 2 com menos de 50 unidades no estoque!\n");
+        }
+    } else printf("Informações inválidas");
+
     return 0;
 }

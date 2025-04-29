@@ -8,10 +8,12 @@ int main() {
 
     media = (num1 + num2) / 2;
 
-    if (media >= 6)
-        printf("Aprovado, sua média foi igual a: %.2f\n", media);
-    else
-        printf("Reprovado, sua média foi igual a: %.2f\n", media);
-
+    if (media >= 0){
+        if (media >= 6)
+            printf("Aprovado, sua média foi igual a: %.2f\n", media);
+        else
+            printf("Reprovado, sua média foi igual a: %.2f\n", media);
+    } else printf("código invalido");
+    
     return 0;
 }
