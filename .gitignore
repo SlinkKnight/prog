@@ -1,6 +1,12 @@
 ### C ###
+
 # Prerequisites
 *.d
+
+
+# PDF
+*.PDF
+
 
 # Object files
 *.o
