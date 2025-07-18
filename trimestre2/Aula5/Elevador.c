@@ -29,6 +29,7 @@ int main() {
                 }
                 andar = andarDesejado;
                 printf("Voce chegou ao andar %i\n", andarDesejado);
+                
             } else printf("Andar inválido\n");
         } else printf("Voce ja se encontra no andar certo\n");
     }
