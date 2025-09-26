@@ -6,7 +6,7 @@
 .testesPessoais
 
 # PDF
-*.PDF
+*.pdf
 
 
 # Object files
