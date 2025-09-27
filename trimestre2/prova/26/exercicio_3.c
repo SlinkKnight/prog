@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-int main() { //1.609344
+int main() {
 
     int i, flag = 0, rota = 0;
     float custofinal = 0, distancia, distanciafinal = 0.00, precopr, precoind, distInternacional = 0.00, distInterestadual = 0.00, distIntermunicipal = 0.00;
