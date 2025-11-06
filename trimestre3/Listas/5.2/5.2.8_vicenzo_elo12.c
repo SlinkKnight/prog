@@ -11,7 +11,7 @@ int main() {
         printf("Digite o valor do indice %i >> ", i);
         scanf("%i", &a[i]);
         if(a[i] < 0) neg++;
-        if(a[i] > 0) pos =+ a[i];
+        if(a[i] > 0) pos += a[i];
     }
     printf("A soma dos positivos: %i\n", pos);
     printf("A quantidade de negativos: %i\n", neg);
