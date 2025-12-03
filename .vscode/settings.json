@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "stdlib.h": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "sstream": "c",
+        "random": "c"
     }
 }
