@@ -3,6 +3,7 @@
 # Prerequisites
 *.d
 
+.vscode
 .testesPessoais
 
 # PDF
