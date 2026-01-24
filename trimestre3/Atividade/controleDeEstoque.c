@@ -45,9 +45,10 @@ int main() {
                 printf("NUMERO DE TENTATIVAS MAXIMAS ALCANCADO, FECHANDO PROGRAMA\n");
                 return 1;
             } else {
+                clear();
                 printf("Senha ou usuario invalidos, tente novamente\n");
                 system("color 4F");
-                Sleep(300);
+                Sleep(1000);
                 system("color 07");
                 clear();
             }
