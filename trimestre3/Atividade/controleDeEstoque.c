@@ -107,7 +107,7 @@ int main() {
                                 a[i][1] = 0.0; break;
                             default: {
                                 a[i][1] = -1.0;
-                                printf("codigo invalido\n"); //validacaozonha basica
+                                printf("codigo invalido\n"); //validacaozinha basica
                             }
                         }
                     } while (a[i][1] == -1.0);
