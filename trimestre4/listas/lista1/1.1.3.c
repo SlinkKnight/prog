@@ -38,7 +38,7 @@ int main() {
             printf("Nenhuma operacao selecionada.\n");
             break;
         }
-        if(!flag)   printf("O resultado e: %.2f\n", res);
+        if(!flag) printf("O resultado e: %.2f\n", res);
 
     }
     return 0;

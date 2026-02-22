@@ -8,7 +8,7 @@ int main() {
         do {
             printf("Digite seu salario >> ");
             scanf("%f", &salario);
-        } while (salario > 0.0);
+        } while (salario <= 0.0);
 
         if(salario < 1000) taxad = 0.05;
         else if(salario < 5000) taxad = 0.11;
