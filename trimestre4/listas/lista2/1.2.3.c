@@ -25,8 +25,7 @@ int main() {
         printf(">> ");
         scanf("%d", &opc);
 
-        switch (opc)
-        {
+        switch (opc) {
         case 1:
             system("cls");
             arg1 = tempoVoltain();
