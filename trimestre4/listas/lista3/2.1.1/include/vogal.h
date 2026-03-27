@@ -1,4 +1,4 @@
 #ifndef VOGAL_H
 #define VOGAL_H
-int analisar(char car);
+    int analisar(char car);
 #endif

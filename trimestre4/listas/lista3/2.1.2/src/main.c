@@ -4,7 +4,6 @@
 
 int main() {
 
-    
     float salAtual;
     float servico;
 
